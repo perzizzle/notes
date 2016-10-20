@@ -1,0 +1,8 @@
+ansible-doc
+TEST_FLAGS="-t test_powershell_filter -i /etc/ansible/hosts" make test_winrm
+TEST_FLAGS="-t test_win_unzip -i /etc/ansible/hosts" make test_winrm
+    
+export ANSIBLE_KEEP_REMOTE_FILES=1
+
+sudo python -m compileall -l .
+../../ansible/hacking/test-module -m ./module.py -a "repository=alerts build=123 artifact=alertMpiSearch findArtifact=yes lastBuild=yes writeDescription=yes"

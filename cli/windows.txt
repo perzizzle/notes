@@ -1,0 +1,10 @@
+keyboard:
+    - alt+space to choose move a window
+    - Move to the top of the text, in front of the first character.
+    - Press and hold down ALT
+    - Click and hold down mouse button and select the first character of every line, and release.
+    - Press the DELETE key.
+    
+powershell:
+    - write-output $task.Principal.UserId | Format-List *
+    - eventlogs:: Microsoft\Windows\Powerhell\Admin area

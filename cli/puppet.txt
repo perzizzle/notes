@@ -1,0 +1,16 @@
+sudo puppet agent -t
+
+linux:
+- $moduleName/{tests, manifests }/init.pp
+tests/init.pp = include $moduleName
+manifests = actual code
+- puppet parser validate path
+- puppet apply lcerts/test/init.pp
+
+windows:
+ - /etc/puppetlabs/code/environments/production/modules/role/manifests/windows/pptc
+- include profile::windows::pptc
+ - /etc/puppetlabs/code/environments/production/modules/profile/manifests/windows/pptc
+ - run puppet agent
+code is stored at:
+- /etc/puppetlabs/code/environments/production/modules/sslcertificate

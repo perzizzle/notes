@@ -1,0 +1,25 @@
+Action	Shortcut
+Find action by name	Ctrl+Shift+A
+Show the list of available intention actions .	Alt+Enter
+Switch between views (Project,Structure, etc.).	Alt+F1
+Switch between the tool windows and files opened in the editor.	Ctrl+Tab
+Show the Navigation bar.	Alt+Home
+Insert a live template.	Ctrl+J
+Surround with a live template.	Ctrl+Alt+J
+Edit an item from the Project or another tree view.	F4
+Comment or uncomment a line or fragment of code with the line or block comment.	Ctrl+Slash
+Ctrl+Shift+Slash
+Find class or file by name.	Ctrl+N
+Ctrl+Shift+N
+Duplicate the current line or selection.	Ctrl+D
+Incremental expression selection.	Ctrl+W and Ctrl+Shift+W
+Find/replace text string in the current file.	Ctrl+F
+Ctrl+R
+Find/replace text in the project or in the specified directory	Ctrl+Shift+F
+Ctrl+Shift+R
+Search everywhere.	Double-press Shift
+Quick view the usages of the selected symbol.	Ctrl+Shift+F7
+Expand or collapse a code fragment in the editor.	Ctrl+NumPad Plus
+Ctrl+NumPad -
+Invoke code completion.	Ctrl+Space
+Show the list of available refactorings (Refactor This).	Ctrl+Shift+Alt+T

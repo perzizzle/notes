@@ -1,0 +1,3 @@
+insert spaces at front of lines
+    :%s/^/    /
+    :set paste

@@ -1,0 +1,4 @@
+ -db reset password for user awx
+    -  sudo -u postgres psql
+        postgres=# \password awx
+        Enter new password:

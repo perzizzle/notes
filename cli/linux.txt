@@ -1,0 +1,22 @@
+- find:
+    - find . -maxdepth 5 -name "*rpm" -type f | grep dev
+        - final all files that end in rpm, 5 folders deep and contain the word dev
+    - find gopher -type f -name "*php"
+- grep -rn . -e "paramiko" 
+    - recursively search for paramiko
+- sudo tcpdump host 172.25.19.62 -w output.pcap
+    - dump all traffic from host to file
+- keytool -list -keystore keystore.jks -alias outboundprod.surescripts.net
+    - list all certificats in keystore file with provided alias
+- echo $?
+    - to get exit code of last process run 
+- /usr/bin/uuidgen
+    - to generate a GUID
+- ps -ef | grep myProcessName | grep -v grep | awk '{print $2}' | xargs kill -9
+- PIDS=`ps -aef | grep java | grep ss.app.id=$APP_NAME | awk '{print $2}'`
+- pip install MySQL_python==1.2.2
+    - install specific version of python package
+- sudo rpm -e python-paramiko --nodeps
+- yum:
+    - sudo yum install --downloadonly --downloaddir=/tmp/tower perl-MIME-Lite
+    - yum --nogpgcheck localinstall packagensudoame.arch.rpm
