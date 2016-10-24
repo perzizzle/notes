@@ -1,0 +1,16 @@
+fqdn:
+  mn:
+    f5_gtm_pool: /Common/
+    f5_gtm_wide_ip: /Common/
+    f5_ltm_server: 
+    f5_ltm_virtual_server:
+      - /Common/      
+    f5_ltm_virtual_server_ip:
+  va:
+    f5_gtm_pool: /Common/
+    f5_gtm_wide_ip: /Common/
+    f5_ltm_server: 
+    f5_ltm_virtual_server:
+      - /Common/
+    f5_ltm_virtual_server_ip:
+  #etc
