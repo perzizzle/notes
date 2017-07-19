@@ -6,8 +6,12 @@
     - recursively search for paramiko
 - sudo tcpdump host 172.25.19.62 -w output.pcap
     - dump all traffic from host to file
-- keytool -list -keystore keystore.jks -alias outboundprod.surescripts.net
-    - list all certificats in keystore file with provided alias
+- keytool
+    -keytool -list -keystore keystore.jks -alias outboundprod.surescripts.net
+        - list all certificats in keystore file with provided alias
+    -keytool -list -keystore surescripts.client.keystore.pfx -storetype PKCS12
+        - list all certificates in a pfx
+
 - echo $?
     - to get exit code of last process run 
 - /usr/bin/uuidgen
