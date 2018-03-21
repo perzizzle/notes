@@ -1,3 +1,7 @@
 insert spaces at front of lines
     :%s/^/    /
     :set paste
+Delete:
+ D = d$ - delete to end of line
+ dw - delete to next word
+ dG - curent line to end of file
