@@ -1,0 +1,47 @@
+DNS
+Search dev, loudest and surescriptsext
+
+Installs
+* Intellij
+* Pycharm
+* IStats
+* Vs code
+* Pwsafe
+* Sourcetree
+* Java
+* Groovy
+* Irc
+* VSCode?
+* https://www.passwordstore.org/
+* Docker
+* Limechat
+* Keystore explorer
+
+Gem
+* Puppet-lint
+
+Git
+ansible pre commit hook
+
+Configuration
+* defaults write com.apple.finder AppleShowAllFiles TRUE;killall Finder
+
+Brew
+* Git
+* Ansible
+* Python2
+* Python
+* Groovy
+* Trash
+* Wget
+* Beyond-compare
+* Limechat
+
+Pip
+* jf5-sdk', 
+* 'argparse', 
+* 'jenkinsapi', 
+* 'python-consul',  '
+* 'cx_Oracle', 
+* 'orionsdk'
+* influxdb

@@ -1,0 +1,10 @@
+Shortcuts
+* control+shift+eject to lock screen.
+* Command + space to search
+* control+shift+tab cycle through chrome tabs
+* control+option+fn+delete is control alt delete on windows
+* command+shift+4
+* fn+delete to backspace
+* Hotcorners
+    * Lower left lock screen
+* command+N to open duplicate finder
