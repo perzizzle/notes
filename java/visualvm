@@ -1,0 +1,8 @@
+To wire up jolokia and enable remote jmx counters use the following java opts.
+
+export JAVA_OPTS=
+-javaagent:/app/uid/telegraf/jolokia/current/agents/jolokia-jvm.jar=port=59270,host=localhost  
+-Dcom.sun.management.jmxremote.port=9999  
+-Dcom.sun.management.jmxremote.local.only=false  
+-Dcom.sun.management.jmxremote.authenticate=false  
+-Dcom.sun.management.jmxremote.ssl=false"
