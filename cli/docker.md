@@ -29,11 +29,11 @@ sudo docker images
 sudo docker exec -it $container_id bash
 
 **Example running commands in container**
-`
+```
 >git clone repository.git
 >sudo docker run -dit -w /workingdirectory -v /local_path:/container_path:rw,z dockerhub.com/container
 >sudo docker ps
 >sudo docker exec -it 2ae123e3615b bash
 >root@2ae123e3615b:# chmod +x gradlew
 >root@2ae123e3615b:# ./gradlew build
-`
+```
