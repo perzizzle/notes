@@ -1,5 +1,5 @@
-To login to repository
-docker login docker.artifactory.surescripts.tech
+**To login to repository**
+docker login dockerhub.com
 
 **To build container**
 docker build -t $tag $path
